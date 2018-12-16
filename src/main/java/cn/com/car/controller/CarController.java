@@ -20,7 +20,9 @@ public class CarController {
 	
 	@RequestMapping("")
 	public String area(Model model) {
-        return "/car/list";
+		List<Car> carLsit=carService.findAll();
+		model.addAttribute("carLsit", carLsit);
+        return "/car/carList";
     }
 	@ResponseBody
 	@RequestMapping("/list")

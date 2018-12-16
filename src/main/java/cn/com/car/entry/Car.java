@@ -11,6 +11,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 /**
  * 车辆
  * @author lianyc
@@ -37,8 +39,8 @@ public class Car implements Serializable {
 	@Column(name="car_color",length=10)
 	private String carColor;
 	//表显里程
-	@Column(name="table_show_mileage")
-	private int tableShowMileage;
+	@Column(name="table_show_mileage",length=20)
+	private String tableShowMileage;
 	//上牌地区
 	@Column(name="registration_area")
 	private String registrationArea;
@@ -62,7 +64,7 @@ public class Car implements Serializable {
 	private String carLevel;
 	//上市时间
 	@Column(name="market_time")
-	private Date marketTime;
+	private String marketTime;
 	//能源类型
 	@Column(name="car_type",length=10)
 	private String carType;
@@ -102,10 +104,10 @@ public class Car implements Serializable {
 	public void setCarColor(String carColor) {
 		this.carColor = carColor;
 	}
-	public int getTableShowMileage() {
+	public String getTableShowMileage() {
 		return tableShowMileage;
 	}
-	public void setTableShowMileage(int tableShowMileage) {
+	public void setTableShowMileage(String tableShowMileage) {
 		this.tableShowMileage = tableShowMileage;
 	}
 	public String getRegistrationArea() {
@@ -150,10 +152,10 @@ public class Car implements Serializable {
 	public void setCarLevel(String carLevel) {
 		this.carLevel = carLevel;
 	}
-	public Date getMarketTime() {
+	public String getMarketTime() {
 		return marketTime;
 	}
-	public void setMarketTime(Date marketTime) {
+	public void setMarketTime(String marketTime) {
 		this.marketTime = marketTime;
 	}
 	public String getCarType() {
