@@ -1,10 +1,14 @@
 package cn.com.car.entry;
 
+import static javax.persistence.GenerationType.IDENTITY;
+
 import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -19,6 +23,10 @@ public class Car implements Serializable {
 	/**
 	 * 
 	 */
+	@Id
+	@GeneratedValue(strategy = IDENTITY)
+	@Column(name = "id", unique = true, nullable = false)
+	private Long id;
 	private static final long serialVersionUID = 1L;
 	@Column(name="car_name",length=20)
 	private String carName;
@@ -55,7 +63,7 @@ public class Car implements Serializable {
 	//上市时间
 	@Column(name="market_time")
 	private Date marketTime;
-	//类型
+	//能源类型
 	@Column(name="car_type",length=10)
 	private String carType;
 	//最大功率
