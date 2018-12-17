@@ -3,7 +3,7 @@
 <head>
 <title>车脉</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 <script src="/plugin/jquery/jquery-3.3.1.min.js"></script>
 <script src="/plugin/bootstrap/js/bootstrap.min.js"></script>
 </head>

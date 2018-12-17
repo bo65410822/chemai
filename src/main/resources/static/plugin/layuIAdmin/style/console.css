@@ -1,0 +1,110 @@
+ body{
+   font-family: Helvetica Neue;
+ }
+ .lay-w-auto{
+    width: 100%;
+  }
+  .layui-col-md3{
+    width:40%;
+  }
+  .layui-card-body{
+    height: auto;
+  }
+  .layui-btn-sm{
+    float: right;
+  }
+  .layui-btn .layui-icon{
+    position: static;
+  }
+  .lay-w-eight{
+    width: 60%;
+  }
+  .car-one{
+    display: flex;
+    justify-content: space-around;
+  }
+  /* .layui-carousel-arrow{
+    border-radius: 0;
+    top:-15%;
+  }
+  .layui-carousel-arrow[lay-type=sub]{
+    margin-left: 663px;
+    position: absolute;
+    top: -40px;
+  } */
+  .task{
+    text-align: center;
+    border-top: 3px solid #90d103;
+  }
+  .task li{
+    display: flex;
+    justify-content:space-around;
+    height: 28px;
+    line-height: 28px;
+    border-bottom:1px dashed #e8e8e8 ;
+  }
+  .task li:nth-child(1) p{
+    width: auto;
+  }
+  .task li span {
+    color: #fbbbaf;
+  }
+  .task li:nth-child(1){
+    display: block;
+    text-indent: 0;
+    height: 90px;
+  }
+  .task li:nth-child(even){
+    background: #f8f8f8;
+  }
+  .task li:nth-child(odd){
+    background: #fff;
+  }
+  .task .name{
+    height: 50px;
+    margin: 0;
+    line-height: 60px;
+  }
+  .task .sum{
+    font-size:28px;
+    color: #90d103;
+  }
+  .task .btn{
+    display: flex;
+    height: auto;
+  }
+  .task .btn a{
+    text-decoration: none;
+    color: #fff;
+    background: #90d103;
+    width: 70px;
+    height: 23px;
+    display: block;
+    text-indent: 0;
+    margin-left: 12px;
+    line-height: 23px;
+  }
+  .mytask>li{
+    width: 24%;
+    float: left;
+    margin:0px 3px; 
+  }
+  .layui-card-header{
+    font-size: 20px;
+  }
+  #layui-laypage-1{
+    float: right;
+  }
+  .layui-card-header{
+    background: #f8f8f8;
+  }
+  .layui-col-md3{
+    height: 318px;
+  }
+  .layui-col-md3 .layui-card{
+    background: #f8f8f8;
+    height: 100%;
+  }
+  .lay-w-auto .layui-card{
+    border-top: 2px solid skyblue; 
+  }

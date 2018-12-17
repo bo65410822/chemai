@@ -1,0 +1,71 @@
+
+
+.layadmin-user-login-header p{margin-left: 100px;}
+.left-module-icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -8px;
+    z-index: 1;
+}
+.left-module-icon-mgt{
+    position: unset;
+}
+
+.layui-layout-admin .layui-header .layui-nav-child .fa,.layui-layout-admin .layui-header .layui-nav-child .layui-icon {
+    margin-right: 10px;
+    color: #666666;
+}
+
+.info-my-role{
+    width: 60%;
+}
+.layui-layout-admin .layui-logo {
+    background-image: url(../../img/logo_admin_small.png);
+    background-position: left;
+}
+.layadmin-side-shrink .layui-layout-admin .layui-logo {
+    width: 60px;
+    background-image: url(../../img/logo_admin.png);
+    background-position: center;
+}
+.pagination-lg>li>a, .pagination-lg>li>span{
+    font-size: 12px;
+}
+.pagination-lg>li:first-child>a, .pagination-lg>li:first-child>span{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.pagination-lg>li:last-child>a, .pagination-lg>li:last-child>span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.layui-table-tool-boot{
+    border-width: 1px 1px 0px 1px;
+}
+blockquote{font-size: 12px;}
+
+.layui-input-search{
+    height: 32px;
+}
+
+.layui-input-search-chosen .chosen-container-single{
+    width: 180px;
+    height: 14px;
+    margin-right: 5px;
+    margin-top: -20px;
+}
+.layui-input-search-chosen{
+    margin-top: -1px;
+}
+.pagination{
+    margin:0;
+}
+.chosen-container{
+    width: 100% !important;
+}
+.ibox-content{
+    border-width: 0px 0px;
+    padding: 6px 20px 20px 20px;
+}
